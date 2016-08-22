@@ -139,27 +139,4 @@ button.neutral, input[type="button"].neutral {
   button.neutral:hover, input[type="button"].neutral:hover {
     cursor: not-allowed; }
 
-/*
-@import 'yellow';
-*/
-html, body {
-  background-color: #BBD9DD;
-  color: #448088; }
-
-input[type="button"] {
-  font-family: 'Bitter';
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%); }
-
-div.cz.bg.lgray-11 {
-  margin-bottom: 2%;
-  width: auto; }
-  div.cz.bg.lgray-11 input[type="button"] {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 1%;
-    margin-bottom: -1%; }
-
 /*# sourceMappingURL=style.css.map */
