@@ -1,0 +1,165 @@
+button.material, input[type="button"].material {
+  outline: none;
+  padding: 5px 20px 5px 20px;
+  border-radius: 2px;
+  border: 1px;
+  background-color: transparent;
+  transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s; }
+  button.material:hover, input[type="button"].material:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.45); }
+  button.material:active, input[type="button"].material:active {
+    transition: box-shadow 0.1s;
+    transition-delay: 0s;
+    box-shadow: 0px 0px 0px; }
+
+button.material.dark, input[type="button"].material.dark {
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
+  outline: none;
+  padding: 5px 20px 5px 20px;
+  border-radius: 2px;
+  color: #000;
+  background-color: transparent;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.45); }
+  button.material.dark:hover, input[type="button"].material.dark:hover {
+    cursor: pointer;
+    box-shadow: 0 -1.5px 5px 0 rgba(0, 0, 0, 0.45); }
+  button.material.dark:active, input[type="button"].material.dark:active {
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.45); }
+
+button.material.transparent.dark, input[type="button"].material.transparent.dark {
+  outline: none;
+  padding: 5px 20px 5px 20px;
+  border-radius: 2px;
+  color: #16161A;
+  background-color: transparent;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.45); }
+  button.material.transparent.dark:hover, input[type="button"].material.transparent.dark:hover {
+    cursor: pointer;
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.45); }
+  button.material.transparent.dark:active, input[type="button"].material.transparent.dark:active {
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.45); }
+
+button.material.light, input[type="button"].material.light {
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
+  outline: none;
+  padding: 5px 20px 5px 20px;
+  border-radius: 2px;
+  color: #fff;
+  background-color: transparent;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.45); }
+  button.material.light:hover, input[type="button"].material.light:hover {
+    cursor: pointer;
+    box-shadow: 0 -1.5px 5px 0 rgba(0, 0, 0, 0.45); }
+  button.material.light:active, input[type="button"].material.light:active {
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.45); }
+
+button.material.transparent.light, input[type="button"].material.transparent.light {
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
+  outline: none;
+  padding: 5px 20px 5px 20px;
+  border-radius: 2px;
+  color: #fff;
+  background-color: transparent;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.45); }
+  button.material.transparent.light:hover, input[type="button"].material.transparent.light:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.45); }
+  button.material.transparent.light:active, input[type="button"].material.transparent.light:active {
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.45); }
+
+button.material.info, input[type="button"].material.info {
+  border: 1px #0e53d8 solid;
+  background-color: #286cf1;
+  color: #fff; }
+  button.material.info:hover, input[type="button"].material.info:hover {
+    background-color: #0F58E6;
+    border: 1px #0c46b6 solid;
+    color: #fff; }
+  button.material.info:active, input[type="button"].material.info:active {
+    background-color: #0e51d3;
+    border: 1px #0c46b6 solid;
+    transition: box-shadow 0.1s;
+    transition-delay: 0s;
+    box-shadow: 0px 0px 0px;
+    color: #fff; }
+
+button.material.error, input[type="button"].material.error {
+  border: 1px #fb0d45 solid;
+  background-color: #fb3564;
+  color: #fff; }
+  button.material.error:hover, input[type="button"].material.error:hover {
+    background-color: #FB1C51;
+    border: 1px #e00438 solid;
+    color: #fff; }
+  button.material.error:active, input[type="button"].material.error:active {
+    background-color: #fb0842;
+    border: 1px #e00438 solid;
+    transition: box-shadow 0.1s;
+    transition-delay: 0s;
+    box-shadow: 0px 0px 0px;
+    color: #fff; }
+
+button.material.success, input[type="button"].material.success {
+  border: 1px #25cf6e solid;
+  background-color: #40dd83;
+  color: #fff; }
+  button.material.success:hover, input[type="button"].material.success:hover {
+    background-color: #2AD975;
+    border: 1px #1fb15e solid;
+    color: #fff; }
+  button.material.success:active, input[type="button"].material.success:active {
+    background-color: #24ca6b;
+    border: 1px #1fb15e solid;
+    transition: box-shadow 0.1s;
+    transition-delay: 0s;
+    box-shadow: 0px 0px 0px;
+    color: #fff; }
+
+button.neutral, input[type="button"].neutral {
+  border: 1px #d5d5d5 solid;
+  background-color: #e5e5e5;
+  color: #9d9d9d;
+  outline: none;
+  padding: 5px 20px 5px 20px;
+  border-radius: 2px;
+  border: 1px; }
+  button.neutral:hover, input[type="button"].neutral:hover {
+    cursor: not-allowed; }
+
+/*
+@import 'yellow';
+*/
+html, body {
+  background-color: #BBD9DD;
+  color: #448088; }
+
+input[type="button"] {
+  font-family: 'Bitter';
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); }
+
+div.cz.bg.lgray-11 {
+  margin-bottom: 2%;
+  width: auto; }
+  div.cz.bg.lgray-11 input[type="button"] {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1%;
+    margin-bottom: -1%; }
+
+/*# sourceMappingURL=style.css.map */
