@@ -8,4 +8,4 @@ Include `Material.css` in your page
 
 **Instruction soon available.**
 
-[Preview](rawnly.github.io/MaterialButtons/)
+[Preview](https://rawnly.github.io/MaterialButtons/)
