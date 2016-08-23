@@ -7,6 +7,7 @@ Include `Material.css` in your page
 ```
 or
 ```html
+  <!-- Material Buttons -->
   <link rel="stylesheet" href="https://rawgit.com/Rawnly/MaterialButtons/master/material.css" />
 ```
 
